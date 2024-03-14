@@ -1,21 +1,22 @@
 import { } from 'react'
+import logo from './assets/h3logo.png'
 
 import './App.css'
 
 function App() {
   return (
     <>
-      <h1>h3p.tech</h1>
-      <h2>Coming Soon!</h2>
-      <div className="card">
-      
-        <p>
-  
-        </p>
+      <div className="logo">
+      <img src={logo}></img>
       </div>
+
+      <h2>Website Under Construction</h2>
+      <h3>Future Home of h3p.tech</h3>
+      <div className="footer">
       <p className="read-the-docs">
-          Under Construction
+          Frontend Built Using Vite.js + React.js by Alex Pariah
       </p>
+      </div>
     </>
   )
 }
